@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidServlet</string>
+    <string name="title">Android Servlet Container</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
