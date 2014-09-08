@@ -2,12 +2,12 @@ package gmarques.androidservlet.servlet;
 
 import java.io.IOException;
 
-import javax.winstone.servlet.ServletException;
-import javax.winstone.servlet.http.HttpServlet;
-import javax.winstone.servlet.http.HttpServletRequest;
-import javax.winstone.servlet.http.HttpServletResponse;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
-public class AndroidServlet extends HttpServlet {
+public class TestWinstoneServlet extends HttpServlet {
 
     private static final long serialVersionUID = 1L;
 
@@ -16,7 +16,7 @@ public class AndroidServlet extends HttpServlet {
 
         resp.setContentType("text/html;charset=utf-8");
         resp.setStatus(HttpServletResponse.SC_OK);
-        resp.getWriter().println("<h1>Hello World from servlet 333</h1>");
+        resp.getWriter().println("<h1>Hello World from Winstone servlet!</h1>");
 
     }
 }

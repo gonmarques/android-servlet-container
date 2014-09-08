@@ -16,7 +16,7 @@ public class TestJettyServlet extends HttpServlet {
 
         resp.setContentType("text/html;charset=utf-8");
         resp.setStatus(HttpServletResponse.SC_OK);
-        resp.getWriter().println("<h1>Hello World from jetty servlet</h1>");
+        resp.getWriter().println("<h1>Hello World from Jetty servlet!</h1>");
 
     }
 }

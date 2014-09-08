@@ -21,7 +21,18 @@ public class ServerRunnerFactory {
     }
 
     public enum ServerType {
-        JETTY, WINSTONE;
+        JETTY("Jetty"), WINSTONE("Winstone");
+
+        private final String description;
+
+        private ServerType(String description) {
+            this.description = description;
+        }
+
+        public String getDescription() {
+            return description;
+        }
+
     }
 
 }
