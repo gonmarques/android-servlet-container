@@ -1,6 +1,6 @@
-#Android Servlet Container
+# Android Servlet Container
 
-##Background
+## Background
 
 Back in 2012 I authored an Android application which core component was an HTTP server that was implemented resorting only to Java sockets. The main reason for the application's success, apart from the provided usability and functionality, was due to its extreme lighweight and performance.
 
@@ -8,7 +8,7 @@ Embedded servlet containers were already available - namely Jetty - but I didn't
 
 Anyway, I never abandoned the idea of experimenting embedded servlet containers in Android. After a couple of years, here we are.
 
-##Results
+## Results
 
  -  **Jetty**: Everything went smoothly. I only had to use an older version because recent versions are coupled to JMX (**javax.management** package) and in Android this is a no-go.
 
